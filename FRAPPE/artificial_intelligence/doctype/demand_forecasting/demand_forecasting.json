@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "DF.####",
+ "creation": "2024-10-06 14:00:43.906189",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "posting_date",
+  "item_code",
+  "item_name",
+  "qty",
+  "rate",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Data",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Data",
+   "label": "Item Code"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Data",
+   "label": "Rate"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-06 15:29:12.758090",
+ "modified_by": "Administrator",
+ "module": "Artificial Intelligence",
+ "name": "Demand Forecasting",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
